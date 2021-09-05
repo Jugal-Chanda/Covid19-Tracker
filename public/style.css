@@ -1,0 +1,38 @@
+#app {
+    background-color: antiquewhite;
+    height: 100vh;
+
+}
+.information {
+    /* border: 1px solid black; */
+    height: 200px;
+}
+
+
+.information .main-content {
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100%;
+}
+
+
+
+.main-content{
+    position: relative;
+}
+
+.main-content > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h3,h4 {
+    text-align: center;
+    display: block;
+}
+h6{
+    text-align: center;
+}
